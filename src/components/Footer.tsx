@@ -37,7 +37,7 @@ const Footer = () => {
           {/* Contact Information */}
           <div className="footer-info">
             <h3>Contact Us</h3>
-            <ContactItem icon={FaPhone} text="+91 1234567890"  />
+            <ContactItem icon={FaPhone} text="+918080068554"  />
             <ContactItem icon={FaEnvelope} text="info@brilliancefoundation.com" />
             <ContactItem icon={FaMapMarkerAlt} text="Vitthal Shopping Complex, Omkareshwar Temple,"/>
           </div>
