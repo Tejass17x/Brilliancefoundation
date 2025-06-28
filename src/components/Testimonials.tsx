@@ -14,24 +14,24 @@ interface Testimonial {
 const Testimonials: React.FC = () => {
   const testimonials: Testimonial[] = [
     {
-      name: "Rahul Sharma",
-      role: "IIT-JEE Advanced 2023",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHByb2Zlc3NvcnxlbnwwfHwwfHx8MA%3D%3D",
-      text: "Brilliance Foundation transformed my JEE preparation journey. The personalized attention and expert guidance helped me secure AIR 45 in JEE Advanced. The faculty's dedication and innovative teaching methods made complex concepts easy to understand.",
+      name: "Rohan Gupta",
+      role: "Software Development Engineer, Amazon",
+      image: "https://cdn-icons-png.flaticon.com/512/2721/2721297.png", // Tech icon
+      text: "The mentorship and hands-on coding sessions helped me crack my SDE interviews at Amazon. The focus on DSA, system design, and mock interviews was a game changer for my career.",
       rating: 5
     },
     {
-      name: "Priya Patel",
-      role: "NEET 2023",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2Zlc3NvcnxlbnwwfHwwfHx8MA%3D%3D",
-      text: "The structured approach and regular mock tests at Brilliance Foundation prepared me well for NEET. The teachers are incredibly supportive and the study material is comprehensive. I'm grateful for their guidance in achieving my medical school dream.",
+      name: "Sneha Rao",
+      role: "Backend Developer, FinTech Startup",
+      image: "https://cdn-icons-png.flaticon.com/512/2721/2721306.png", // Backend/Database icon
+      text: "Learning advanced SQL and backend architecture from industry mentors gave me the confidence to build scalable APIs and ace my technical rounds. Highly recommended for aspiring backend engineers!",
       rating: 5
     },
     {
-      name: "Amit Kumar",
-      role: "KVPY Scholar 2023",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHByb2Zlc3NvcnxlbnwwfHwwfHx8MA%3D%3D",
-      text: "The research-oriented approach at Brilliance Foundation helped me develop a deeper understanding of scientific concepts. The faculty's expertise and the institute's focus on practical learning were instrumental in my KVPY success.",
+      name: "Amit Deshmukh",
+      role: "Data Scientist, Analytics Co.",
+      image: "https://cdn-icons-png.flaticon.com/512/2721/2721317.png", // Data/Algorithm icon
+      text: "The DSA bootcamps and real-world project guidance helped me transition from a fresher to a data scientist. The mentors' industry experience and interview tips were invaluable.",
       rating: 5
     }
   ];
