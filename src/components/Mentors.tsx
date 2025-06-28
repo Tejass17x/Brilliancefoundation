@@ -20,69 +20,69 @@ interface Mentor {
 const Mentors: React.FC = () => {
   const mentors: Mentor[] = [
     {
-      name: "Dr. Rajesh Kumar",
-      role: "Director & Physics Expert",
-      expertise: ["JEE Advanced", "KVPY", "Physics Olympiad"],
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHByb2Zlc3NvcnxlbnwwfHwwfHx8MA%3D%3D",
-      bio: "Ph.D. from IIT Delhi with 15+ years of teaching experience. Former IIT-JEE topper and author of best-selling physics books.",
+      name: "Ankit Verma",
+      role: "Senior Java Full Stack Developer",
+      expertise: ["Java", "Spring Boot", "React.js", "Full Stack", "Microservices"],
+      image: "https://randomuser.me/api/portraits/men/32.jpg",
+      bio: "10+ years in enterprise software development. Expert in building scalable full stack applications using Java, Spring Boot, and React. Mentor for backend and microservices architecture.",
       achievements: [
-        "Published 10+ research papers",
-        "Mentored 1000+ IIT-JEE selections",
-        "Author of 'Advanced Physics for JEE'"
+        "Lead architect for a Fortune 500 e-commerce platform",
+        "Speaker at JavaOne and Devoxx",
+        "Mentored 200+ engineers in Java and microservices"
       ],
       social: {
-        linkedin: "#",
-        twitter: "#",
-        email: "rajesh@brilliancefoundation.com"
+        linkedin: "https://linkedin.com/in/ankitverma",
+        twitter: "https://twitter.com/ankitverma_dev",
+        email: "ankit.verma@industrymentors.com"
       }
     },
     {
-      name: "Dr. Priya Sharma",
-      role: "Chemistry Department Head",
-      expertise: ["NEET", "JEE Main", "Chemistry Olympiad"],
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2Zlc3NvcnxlbnwwfHwwfHx8MA%3D%3D",
-      bio: "Ph.D. in Organic Chemistry from IISc Bangalore. 12 years of experience in coaching NEET and JEE aspirants.",
+      name: "Priya Singh",
+      role: "Backend Engineer & SQL Specialist",
+      expertise: ["Backend", "SQL", "PostgreSQL", "Node.js", "API Design"],
+      image: "https://randomuser.me/api/portraits/women/44.jpg",
+      bio: "Backend engineer with 8 years of experience in designing robust APIs and optimizing SQL databases. Passionate about data modeling and high-performance systems.",
       achievements: [
-        "National Teacher Award 2022",
-        "Author of 'Organic Chemistry Simplified'",
-        "95% success rate in NEET"
+        "Database optimization for a fintech startup (reduced query time by 80%)",
+        "Author of 'Mastering SQL for Developers'",
+        "Conducted 50+ workshops on backend and database design"
       ],
       social: {
-        linkedin: "#",
-        email: "priya@brilliancefoundation.com"
+        linkedin: "https://linkedin.com/in/priyasingh-sql",
+        email: "priya.singh@industrymentors.com"
       }
     },
     {
-      name: "Prof. Amit Patel",
-      role: "Mathematics Expert",
-      expertise: ["JEE Advanced", "Mathematics Olympiad", "KVPY"],
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHByb2Zlc3NvcnxlbnwwfHwwfHx8MA%3D%3D",
-      bio: "M.Tech from IIT Bombay with specialization in Applied Mathematics. Known for his unique problem-solving techniques.",
+      name: "Rahul Mehta",
+      role: "DSA & C++ Expert",
+      expertise: ["Data Structures & Algorithms", "C++", "Competitive Programming", "System Design"],
+      image: "https://randomuser.me/api/portraits/men/45.jpg",
+      bio: "Ex-Google software engineer and ACM ICPC world finalist. Specializes in DSA, C++, and system design interviews. Helps students crack FAANG interviews.",
       achievements: [
-        "Mathematics Olympiad Mentor",
-        "Developed innovative teaching methods",
-        "90% success rate in JEE Advanced"
+        "ICPC World Finalist 2018",
+        "Conducted 100+ DSA bootcamps",
+        "Helped 300+ students get placed in top tech companies"
       ],
       social: {
-        linkedin: "#",
-        twitter: "#",
-        email: "amit@brilliancefoundation.com"
+        linkedin: "https://linkedin.com/in/rahulmehta-dsa",
+        twitter: "https://twitter.com/rahulmehta_dsa",
+        email: "rahul.mehta@industrymentors.com"
       }
     },
     {
-      name: "Dr. Neha Gupta",
-      role: "Biology Department Head",
-      expertise: ["NEET", "AIIMS", "Biology Olympiad"],
-      image: "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2Zlc3NvcnxlbnwwfHwwfHx8MA%3D%3D",
-      bio: "Ph.D. in Molecular Biology with 10+ years of teaching experience. Expert in making complex biological concepts simple.",
+      name: "Sneha Kapoor",
+      role: "JavaScript & Frontend Specialist",
+      expertise: ["JavaScript", "React.js", "TypeScript", "UI/UX", "Web Performance"],
+      image: "https://randomuser.me/api/portraits/women/68.jpg",
+      bio: "Frontend engineer with 7+ years of experience in building modern web apps. Expert in JavaScript, React, and UI/UX best practices. Loves teaching and open source.",
       achievements: [
-        "Best Teacher Award 2021",
-        "Author of 'Biology for NEET'",
-        "98% success rate in AIIMS"
+        "Core contributor to popular React open-source libraries",
+        "Speaker at JSConf Asia",
+        "Organized 30+ frontend workshops for students and professionals"
       ],
       social: {
-        linkedin: "#",
-        email: "neha@brilliancefoundation.com"
+        linkedin: "https://linkedin.com/in/snehakapoor-js",
+        email: "sneha.kapoor@industrymentors.com"
       }
     }
   ];
@@ -94,8 +94,8 @@ const Mentors: React.FC = () => {
   return (
     <section className="mentors-section" id="mentors">
       <div className="mentors-content">
-        <h2>Our Expert Mentors</h2>
-        <p className="mentors-subtitle">Learn from the best minds in education</p>
+        <h2>Our Industry Mentors</h2>
+        <p className="mentors-subtitle">Learn from professionals in software development and engineering</p>
         
         <div className="mentors-grid">
           {mentors.map((mentor, index) => (
@@ -122,12 +122,12 @@ const Mentors: React.FC = () => {
                 </div>
                 <div className="mentor-social">
                   {mentor.social.linkedin && (
-                    <a href={mentor.social.linkedin} className="social-link" aria-label="LinkedIn">
+                    <a href={mentor.social.linkedin} className="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
                       {renderIcon(FaLinkedinIn)}
                     </a>
                   )}
                   {mentor.social.twitter && (
-                    <a href={mentor.social.twitter} className="social-link" aria-label="Twitter">
+                    <a href={mentor.social.twitter} className="social-link" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
                       {renderIcon(FaTwitter)}
                     </a>
                   )}
